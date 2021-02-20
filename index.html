@@ -9,13 +9,14 @@
 				padding: 0;
 			}
 			#canvas{
+				cursor: pointer;
 				position: absolute;
 				top: 0;
 				left: 0;
 				right: 0;
 				bottom: 0;
 				margin: auto;
-				background: #666;
+				background: #de9680;
 			}
 			#res{
 				width: 200px;
@@ -43,13 +44,6 @@
 				text-align: center;
 				padding:5px 0;
 			}
-			/*#res img{
-				width:50px;
-				height: 50px;
-				display: block;
-				margin: 0 auto;
-				border-radius: 50%;
-			}*/
 		</style>
 	</head>
 	<body>
@@ -146,13 +140,13 @@
 			        
 			        oRes.style.display ="block";
 				}
-				//设置3s后游戏重新开始
-				 setTimeout(function(){
+				//取消 设置3s后游戏重新开始
+				/* setTimeout(function(){
 				 	oRes.innerHTML="<p>游戏即将重新开始</p>";
 				 	setTimeout(function(){
 				 		location.reload();
 				 	},3000)
-				 },3000)
+				 },3000)*/
 			}
 			}
 		}
